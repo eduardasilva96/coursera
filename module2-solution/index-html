@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <title>Coursera Assignment 1</title>
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="header">
+    <h1>Our Menu - Web</h1>
+</div>
+<div class="box-wrapper">
+    <div class="box one">
+        <div class="smallHeader">First Box</div>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliquet nunc eget egestas.
+            Suspendisse nisi felisLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliquet nunc
+            eget egestas. Suspendisse nisi felis,</h5></div>
+    <div class="box two">
+        <div class="smallHeader">Second Box</div>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliq Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Donec molestie aliq</h5></div>
+    <div class="box three">
+        <div class="smallHeader">Third Box</div>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliquet nunc eget egestas. non
+            fringilla risus dolor id eros. Nullam interdum mauris eu augue ornare facilisis. Curabitur purus libero,
+            hendrerit ut diam id, facilisis mattis felis. Nulla facilisi.</h5></div>
+</div>
+
+<div class="header">
+    <h1>Our Menu - Tablet</h1>
+</div>
+<div class="row">
+    <div class="div-div1">
+        <div class="smallHeader">First Box</div>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliquet nunc eget egestas.
+            Suspendisse nisi felisLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliquet nunc
+            eget egestas. Suspendisse nisi felis,</h5></div>
+    <div class="div-div2">
+        <div class="smallHeader">Second Box</div>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliq Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Donec molestie aliq</h5></div>
+    <div class="div-div3">
+        <div class="smallHeader">Third Box</div>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliquet nunc eget egestas. non
+            fringilla risus dolor id eros. Nullam interdum mauris eu augue ornare facilisis. Curabitur purus libero,
+            hendrerit ut diam id, facilisis mattis felis. Nulla facilisi.</h5></div>
+
+</div>
+
+<div class="header">
+    <h1>Our Menu - Phone</h1>
+</div>
+<div class="wrapper">
+    <div class="box div1">
+        <div class="smallHeader">First Box</div>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliquet nunc eget egestas.
+            Suspendisse nisi felisLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliquet nunc
+            eget egestas. Suspendisse nisi felis,</h5></div>
+    <div class="box div2">
+        <div class="smallHeader">Second Box</div>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliq Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Donec molestie aliq</h5></div>
+    <div class="box div3">
+        <div class="smallHeader">Third Box</div>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliquet nunc eget egestas. non
+            fringilla risus dolor id eros. Nullam interdum mauris eu augue ornare facilisis. Curabitur purus libero,
+            hendrerit ut diam id, facilisis mattis felis. Nulla facilisi.</h5></div>
+</div>
+</body>
+</html>
