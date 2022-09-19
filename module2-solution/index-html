@@ -1,71 +1,47 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta charset="utf-8">
-    <title>Coursera Assignment 1</title>
-    <link href="../css/style.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Simple Responsive Webpage</title>
 </head>
 <body>
-<div class="header">
-    <h1>Our Menu - Web</h1>
-</div>
-<div class="box-wrapper">
-    <div class="box one">
-        <div class="smallHeader">First Box</div>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliquet nunc eget egestas.
-            Suspendisse nisi felisLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliquet nunc
-            eget egestas. Suspendisse nisi felis,</h5></div>
-    <div class="box two">
-        <div class="smallHeader">Second Box</div>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliq Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec molestie aliq</h5></div>
-    <div class="box three">
-        <div class="smallHeader">Third Box</div>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliquet nunc eget egestas. non
-            fringilla risus dolor id eros. Nullam interdum mauris eu augue ornare facilisis. Curabitur purus libero,
-            hendrerit ut diam id, facilisis mattis felis. Nulla facilisi.</h5></div>
-</div>
-
-<div class="header">
-    <h1>Our Menu - Tablet</h1>
-</div>
-<div class="row">
-    <div class="div-div1">
-        <div class="smallHeader">First Box</div>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliquet nunc eget egestas.
-            Suspendisse nisi felisLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliquet nunc
-            eget egestas. Suspendisse nisi felis,</h5></div>
-    <div class="div-div2">
-        <div class="smallHeader">Second Box</div>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliq Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec molestie aliq</h5></div>
-    <div class="div-div3">
-        <div class="smallHeader">Third Box</div>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliquet nunc eget egestas. non
-            fringilla risus dolor id eros. Nullam interdum mauris eu augue ornare facilisis. Curabitur purus libero,
-            hendrerit ut diam id, facilisis mattis felis. Nulla facilisi.</h5></div>
-
-</div>
-
-<div class="header">
-    <h1>Our Menu - Phone</h1>
-</div>
-<div class="wrapper">
-    <div class="box div1">
-        <div class="smallHeader">First Box</div>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliquet nunc eget egestas.
-            Suspendisse nisi felisLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliquet nunc
-            eget egestas. Suspendisse nisi felis,</h5></div>
-    <div class="box div2">
-        <div class="smallHeader">Second Box</div>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliq Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec molestie aliq</h5></div>
-    <div class="box div3">
-        <div class="smallHeader">Third Box</div>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie aliquet nunc eget egestas. non
-            fringilla risus dolor id eros. Nullam interdum mauris eu augue ornare facilisis. Curabitur purus libero,
-            hendrerit ut diam id, facilisis mattis felis. Nulla facilisi.</h5></div>
-</div>
+	<div>
+		<h1>Our Menu</h1>
+	</div>
+	<div class="row">
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<section id="section-1">
+				<h2>
+					Beef
+				</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at congue urna, sit amet malesuada elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec suscipit ultricies rhoncus. Aenean sapien magna, euismod ornare metus eu, accumsan scelerisque tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus pretium lorem quis nisi dignissim, ac malesuada mauris consequat. Phasellus volutpat eu risus eget porttitor. Cras quis urna quam. Mauris sed placerat lectus, in luctus magna. Integer sagittis sollicitudin cursus. Nullam eu ultrices tortor.
+				</p>
+			</section>
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<section id="section-2">
+				<h2>
+					Chicken
+				</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at congue urna, sit amet malesuada elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec suscipit ultricies rhoncus. Aenean sapien magna, euismod ornare metus eu, accumsan scelerisque tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus pretium lorem quis nisi dignissim, ac malesuada mauris consequat. Phasellus volutpat eu risus eget porttitor. Cras quis urna quam. Mauris sed placerat lectus, in luctus magna. Integer sagittis sollicitudin cursus. Nullam eu ultrices tortor.
+				</p>
+			</section>
+		</div>
+		<div class="col-sm-12 col-md-12 col-lg-4">
+			<section id="section-3">
+				<h2>
+					Sushi
+				</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at congue urna, sit amet malesuada elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec suscipit ultricies rhoncus. Aenean sapien magna, euismod ornare metus eu, accumsan scelerisque tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus pretium lorem quis nisi dignissim, ac malesuada mauris consequat. Phasellus volutpat eu risus eget porttitor. Cras quis urna quam. Mauris sed placerat lectus, in luctus magna. Integer sagittis sollicitudin cursus. Nullam eu ultrices tortor.
+				</p>
+			</section>
+		</div>
+	</div>
 </body>
 </html>
